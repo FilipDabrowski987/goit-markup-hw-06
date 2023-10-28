@@ -392,6 +392,24 @@
                 </li>
         </ul>
         </div>
+        <div class="subscribe-form">
+            <ul class="subscribe-form-list">
+                <li class="subscribe-form-form">
+                    <form name="subscribe">
+                        <label class="subscribe-email-label" for="subscribe-email">
+                            Subscribe
+                            <input id="subscribe-email" type="email" name="subscribe-email" placeholder="E-mail">
+                        </label>
+                    </form>
+                </li>
+                <li class="lisubscribe-form-button">
+                    <button class="subscribe-form-button" type="button" class="submit">Subscribe <svg class="svgsubsribe-button" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                        <use href="./images/icons.svg#icons-send">
+                        </use>
+                    </svg></button>
+                </li>
+            </ul>
+            </div>
         </div>
     </footer>
     <div class="modal-body is-hidden" data-modal>
@@ -404,21 +422,21 @@
     </button>
     <p class="p-modal">Leave your contacts and we will call you back</p>
     <form name="order-service">
-        <label>
+        <label for="user-name">
             Name
-            <input type="text" name="user-name">
+            <input id="user-name" type="text" name="user-name">
         </label>
-        <label>
+        <label for="user-phone">
             Phone
-            <input type="phone" name="user-phone">
+            <input id="user-phone" type="phone" name="user-phone">
         </label>
-        <label>
+        <label for="user-email">
             Email
-            <input type="email" name="user-mail">
+            <input id="user-email" type="email" name="user-mail">
         </label>
-        <label>
+        <label for="comments">
             Comment
-            <textarea name="coments" rows="7" placeholder="Text input"></textarea>
+            <textarea id="comments" name="comments" rows="7" placeholder="Text input"></textarea>
         </label>
         <label>
         <input type="checkbox" name="privacy-policy" value="music"/>

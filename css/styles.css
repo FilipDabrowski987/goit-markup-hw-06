@@ -784,3 +784,43 @@ label {
     line-height: 1.17;
     letter-spacing: 0.04em;
 }
+
+.subscribe-email-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--white-background);
+    margin-bottom: 16px;
+    margin-left: 80px;
+    }
+
+.subscribe-form-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-form-button {
+    width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    background-color: var(--primary-brand);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--white-background);
+    border-radius: 4px;
+    gap: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
+.svgsubsribe-button {
+    fill: var(--white-background)
+}
