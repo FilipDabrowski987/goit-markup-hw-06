@@ -832,13 +832,44 @@ img {
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: var(--subtle-text);
+    color: rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window-form-input-comment:hover,
 .modal-window-form-input-comment:focus {
     border-color: var(--primary-brand);
+}
+
+.modal-window-form-input-container-checkbox {
+    margin-bottom: 24px;
+}
+
+.modal-window-form-checkbox-label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--subtle-text);
+}
+
+.modal-window-form-input-checkbox {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
+.custom-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+
 }
 
 .subscribe-form {
