@@ -855,7 +855,7 @@ img {
     color: var(--subtle-text);
 }
 
-.modal-window-form-input-checkbox {
+.modal-window-form-input-checkbox-label {
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
