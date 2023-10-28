@@ -810,6 +810,10 @@ img {
 .modal-window-form-input:hover,
 .modal-window-form-input:focus {
     border-color: var(--primary-brand);
+}
+
+.modal-window-form-input:hover + .svg-modal-window-form-input,
+.modal-window-form-input:focus + .svg-modal-window-form-input {
     fill: var(--primary-brand);
 }
 
@@ -866,7 +870,7 @@ img {
     color: var(--subtle-text);
 }
 
-.modal-window-form-input-checkbox:checked + .svg-custom-checkbox {
+.modal-window-form-input-checkbox:checked + .modal-window-form-input-checkbox-label > .custom-checkbox {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
@@ -926,7 +930,7 @@ img {
 
 .subscribe-form-button:hover,
 .subscribe-form-button:focus {
-    background-color: var(--success);
+    background-color: var(--pressed-state);
 }
 
 .svgsubscribe-button {
@@ -988,6 +992,6 @@ img {
 
 .send-form-button:hover,
 .send-form-button:focus {
-    background-color: var(--success);
+    background-color: var(--pressed-state);
 }
 
