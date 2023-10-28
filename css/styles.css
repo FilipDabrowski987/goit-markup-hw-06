@@ -832,4 +832,6 @@ label {
     line-height: 1.5px;
     letter-spacing: 0.32px;
     color: var(--white-background);
+    margin-left: 80px;
+    margin-bottom: 16px;
 }
