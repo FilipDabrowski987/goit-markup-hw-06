@@ -785,6 +785,11 @@ label {
     letter-spacing: 0.04em;
 }
 
+.subscribe-form {
+    display: flex;
+
+}
+
 .subscribe-email-label {
     font-size: 16px;
     font-weight: 500;
@@ -795,13 +800,6 @@ label {
     margin-left: 80px;
     }
 
-.subscribe-form-list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .subscribe-form-button {
     width: 165px;
     height: 40px;
@@ -811,7 +809,7 @@ label {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     color: var(--white-background);
     border-radius: 4px;
     gap: 16px;
@@ -821,7 +819,7 @@ label {
     text-align: center;
 }
 
-.svgsubsribe-button {
+.svgsubscribe-button {
     fill: var(--white-background)
 }
 .subcsribe-form-par {
@@ -829,8 +827,8 @@ label {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--white-background);
     margin-left: 80px;
     margin-bottom: 16px;
