@@ -833,3 +833,19 @@ label {
     margin-left: 80px;
     margin-bottom: 16px;
 }
+
+.subscribe-email-input {
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1 px solid var (--white-background);
+    border-radius: 4px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--white-background);
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
