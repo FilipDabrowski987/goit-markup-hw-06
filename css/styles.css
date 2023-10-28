@@ -824,3 +824,12 @@ label {
 .svgsubsribe-button {
     fill: var(--white-background)
 }
+.subcsribe-form-par {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5px;
+    letter-spacing: 0.32px;
+    color: var(--white-background);
+}
