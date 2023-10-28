@@ -702,6 +702,7 @@ img {
     background-color: var(--modal-background);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
 }
 
 .is-hidden {
@@ -763,12 +764,12 @@ img {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 72px;
     color: var(--dark);
+    margin-bottom: 16px;
 }
 
 label {
@@ -801,7 +802,7 @@ label {
     }
 
 .subscribe-form-button {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     padding: 8px 24px;
     background-color: var(--primary-brand);
@@ -812,15 +813,22 @@ label {
     letter-spacing: 0.04em;
     color: var(--white-background);
     border-radius: 4px;
-    gap: 16px;
     border: none;
     cursor: pointer;
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-form-button:hover,
+.subscribe-form-button:focus {
+    background-color: var(--success);
 }
 
 .svgsubscribe-button {
-    fill: var(--white-background)
+    fill: var(--white-background);
+    margin-left: 16px;
 }
 .subcsribe-form-par {
     font-family: Roboto;
@@ -837,15 +845,16 @@ label {
 .subscribe-email-input {
     width: 264px;
     height: 40px;
+    border: 1px solid var(--white-background);
     background-color: transparent;
-    border: 1 px solid var (--white-background);
     border-radius: 4px;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-background);
     padding-left: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    gap: 24px;
 }
