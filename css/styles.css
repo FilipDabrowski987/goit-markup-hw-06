@@ -1,5 +1,5 @@
 :root {
-        --primary-brand: #4d5ae5;
+    --primary-brand: #4d5ae5;
     --pressed-state: #404bbf;
     --dark: #2E2f42;
     --success: #31D0AA;
@@ -772,23 +772,31 @@ img {
     margin-bottom: 16px;
 }
 
-label {
-    display: flex;
+.modal-window-form-label {
+    display: block;
     flex-direction: column;
-    margin-bottom: 16px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-bottom: 4px;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color: var(--subtle-text);
+}
+.modal-window-form-input-container {
+    position: relative;
+}
+
+.modal-window-form-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--subtle-text);
+    border-radius: 4px;
 }
 
 .subscribe-form {
     display: flex;
-
 }
 
 .subscribe-email-label {
@@ -857,4 +865,8 @@ label {
     padding-left: 16px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     gap: 24px;
+}
+
+.modal-window-form-container {
+    margin-bottom: 8px;
 }
